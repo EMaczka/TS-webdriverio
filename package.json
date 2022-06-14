@@ -1,0 +1,29 @@
+{
+  "name": "webdriverio",
+  "version": "1.0.0",
+  "description": "webdriverIO framework project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webdriverio",
+    "typescript",
+    "cucumber",
+    "nodejs"
+  ],
+  "author": "Elzbieta Maczka",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.20.2"
+  },
+  "devDependencies": {
+    "@wdio/cucumber-framework": "^7.20.2",
+    "@wdio/local-runner": "^7.20.2",
+    "@wdio/spec-reporter": "^7.20.0",
+    "chromedriver": "^102.0.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3",
+    "wdio-chromedriver-service": "^7.3.2"
+  }
+}
